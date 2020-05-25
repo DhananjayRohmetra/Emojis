@@ -1,0 +1,133 @@
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.dot {
+    width: 150px;
+    height: 150px;
+    background-color: #f5cb42;
+    border-radius: 50%;
+    margin: auto;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.eyes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.oval {
+    width: 12px;
+    height: 24px;
+    background: black;
+    border-radius: 50px / 100px;
+    position: relative;
+    top: 30px;
+}
+
+.half-circle {
+    position: relative;
+    top: 60px;
+    left: 25px;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-top: 0;
+}
+
+.surprise {
+    width: 40px;
+    height: 46px;
+    background: black;
+    border-radius: 94px / 110px;
+    position: relative;
+    top: 60px;
+    left: 57px;
+}
+
+.left {
+    display: inline-block !important;
+}
+
+.right {
+    display: inline-block !important;
+}
+
+.main-mask {
+    position: relative;
+    width: 90px;
+    height: 40px;
+    background: white;
+    border-radius: 9px;
+    border: 3px solid grey;
+    top: 50px;
+    left: 28px;
+    z-index: 2;
+}
+
+.right-upper-strip {
+    margin-left: 100px;
+    width: 5px;
+    height: 32px;
+    background-color: white;
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+    transform: rotate(70deg);
+    position: relative;
+    left: 11px;
+    bottom: 75px;
+    z-index: 1;
+}
+
+.right-lower-strip {
+    margin-left: 100px;
+    width: 5px;
+    height: 20px;
+    background-color: white;
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+    transform: rotate(-70deg);
+    position: relative;
+    left: 4px;
+    bottom: 66px;
+}
+
+.left-upper-strip {
+    margin-left: 100px;
+    width: 5px;
+    height: 45px;
+    background-color: white;
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+    transform: rotate(-70deg);
+    position: relative;
+    right: 105px;
+    bottom: 10px;
+    z-index: 1;
+}
+
+.left-lower-strip {
+    margin-left: 100px;
+    width: 5px;
+    height: 20px;
+    background-color: white;
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+    transform: rotate(70deg);
+    position: relative;
+    right: 105px;
+    bottom: 10px;
+}
